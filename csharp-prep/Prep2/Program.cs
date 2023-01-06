@@ -28,9 +28,9 @@ class Program
         else {
             letter = "F";
         }
-        Console.WriteLine($"Your percentage is {letter}");
+        Console.WriteLine($"Your grade is {letter}");
         if (letter == "A" || letter == "B" || letter == "C") {
-            Console.WriteLine($"You have a {letter}! Nice try!");
+            Console.WriteLine($"You pass! Nice job.");
         }
         else {
             Console.WriteLine("Sorry, You don't pass.");
